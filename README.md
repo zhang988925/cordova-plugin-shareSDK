@@ -40,7 +40,7 @@ ionic plugin remove com.weiyuntop.plugin.sharesdk
 # JS调用
 
 ```js
-ShareSDK(
+ShareSDK.init(
 	['测试分享标题','你们好啊这里是测试分享','http://cdn.qiyestore.com/openapi/upload/2015/12/25/EYZZ17L785.png','http://www.qiyestore.com'],
 	function(result) {
 		alert('分享成功');
